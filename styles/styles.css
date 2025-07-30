@@ -1,0 +1,65 @@
+header {
+display: flex;
+width: 100px;
+padding: 16px 0;
+align-items: center;
+}
+
+body {
+background-color: rgb(255, 255, 255);
+}
+
+li {
+list-style-type: none;
+border: 2px solid rgb(47, 85, 134);
+border-radius: 5px;
+padding: 10px;
+}
+
+ul {
+width: 60vw;
+display: flex;
+justify-content: space-around;
+list-style-type: none;
+} 
+
+.redes {
+margin: 0 10px;
+display: flex;
+justify-content: space-evenly;
+}
+
+
+.cuotas {
+display: grid;
+place-items: center;
+}
+
+.banner {
+display: grid;
+place-items: center;
+}
+
+.fondogaming {
+display: grid;
+place-items: center;
+}
+
+.oculto {
+display: none;
+}
+
+.navegacion:hover {
+background-color: rgba(16, 4, 85, 0.205);
+scale: 3px;
+}
+
+.blue:focus {
+color: blue;
+}
+
+.sobrenos {
+background-color: rgba(16, 4, 85, 0.205);
+scale: 3px; font-family: Verdana;
+}
+
